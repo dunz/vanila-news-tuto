@@ -6,6 +6,12 @@
 - live-server
 - axios
 
+## 모듈 설치
+```bash
+npm i -g live-server
+npm i
+```
+
 ## 실행
 ```bash
 live-server
