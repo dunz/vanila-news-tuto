@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: content-box;
+        }
+
+        .flex {
+            display: flex
+        }
+
+        .fg1 {
+            flex:1 0 0;
+        }
+
+        .fg2 {
+            flex:2 0 0;
+        }
+
+        .box {
+
+        }
+
+        .border1 {
+            border: 1px solid black;
+        }
+
+        .news {
+            position: relative;
+            width: 800px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<section class="flex border1 news">
+    <section class="box fg1 border1 news-list"></section>
+    <section class="box fg2 border1">
+        <div class="news-content"></div>
+        <div>
+            <button class="button-left">Left</button>
+            <button class="button-right">Right</button>
+        </div>
+    </section>
+</section>
+
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
